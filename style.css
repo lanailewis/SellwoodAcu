@@ -1,0 +1,166 @@
+/************************
+Notes
+
+************************/
+
+/***********************
+Fonts
+
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Source Sans Pro', sans-serif;
+
+font-family: 'PT Sans', sans-serif;
+
+font-family: 'Droid Sans', sans-serif;
+
+************************/
+
+/*******************
+Header/Subheadings
+*******************/
+
+	.main-header {
+		
+		font-family: 'PT Sans', sans-serif;
+		color: white;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		background-image: url*('../img/bamboo2.jpg')*;
+		background-repeat: no-repeat;
+	}
+	
+	h1 {
+		
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 2em;
+	}
+	
+	.name {
+		
+		margin: 0;
+	}
+	
+	.span {
+		
+		padding: 3px;
+		margin: 0;
+	}
+	
+	.subheading {
+		
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		background: linen;
+	}
+
+/*************
+Navigation
+*************/
+
+	.nav-bar {
+		
+		background: none;
+		padding: 2px;
+		
+
+		
+	}
+
+	.nav-bar li {
+		
+		background: none;
+		display: block;
+		list-style: none;
+		padding: 3px 0;
+		
+
+	}
+
+
+	.nav-bar li a {
+		
+		text-decoration: none;
+		color: white;
+		padding: 0;
+		margin: 0 auto;
+
+		
+	}
+
+/*************
+Information/Body
+*************/
+
+	* {
+		
+		box-sizing: border-box;
+		
+	}
+	
+	
+	
+	body {
+		
+		text-align: center;
+		font-family: 'Droid Sans', sans-serif;
+		background: burlywood;
+	}
+	
+	.container {
+		
+		padding-left: 1em;
+		padding-right: 1em;
+		
+	}
+	
+/*************
+Images
+*************/
+
+	#lanai {
+		
+		vertical-align: middle;
+		padding: 10px;
+		border: solid 2px;
+	
+	}
+
+/*************
+Media Queries, Mobile First
+*************/
+
+@media (min-width: 769px) {
+	
+	.wrap {
+		min-height: calc(100vh - 14px);
+		
+	}
+	
+	.container {
+		width: 70%;
+		margin: 0 auto;
+		max-width: 100%
+	}
+	
+}
+	
+	
+/*****************
+Footer
+*****************/
+
+	footer { 
+		
+		text-align: center;
+		background: #ffff00;
+		font-family: "Droid Sans", Helvetica, sans-serif;
+		font-size: .75em;
+		
+	}
+
+
